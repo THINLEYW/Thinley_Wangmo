@@ -3,6 +3,8 @@ import 'package:flutter_application_1/screens/AddToCard.dart';
 import 'package:flutter_application_1/screens/PlantLanding.dart';
 import 'package:flutter_application_1/screens/Aurora.dart';
 import 'package:flutter_application_1/screens/AddToCard.dart';
+import 'package:flutter_application_1/screens/Travel/Home.travel.dart';
+import 'package:flutter_application_1/screens/travel/Intro.travel.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -35,7 +37,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: Home(),
-      home: AddToCard(),
+      home: HomeTravel(),
     );
   }
 }

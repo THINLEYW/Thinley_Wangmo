@@ -23,11 +23,11 @@ class Aurora extends StatelessWidget {
               ),
               Container(
                 margin: EdgeInsets.symmetric(vertical: 16),
-                height: 500,
+                height: 300,
                 width: double.infinity,
                 clipBehavior: Clip.hardEdge,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(200),
+                  borderRadius: BorderRadius.circular(100),
                 ),
                 child: Image.network("https://cdn.pixabay.com/photo/2018/04/04/13/38/nature-3289812_1280.jpg", fit: BoxFit.cover),
               ),
